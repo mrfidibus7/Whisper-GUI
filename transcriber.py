@@ -51,6 +51,8 @@ def save_transcript(text, file_path, file_format):
         doc.add_paragraph(text)
         doc.save(file_path)
 
+# Global variable for the API key
+api_key_var = tk.StringVar()
 
 # Global variable for the message label
 message_label = None
@@ -159,7 +161,7 @@ language_menu.pack(expand=True, pady=5)
 # Text field for OpenAI API Key
 api_key_label = ttk.Label(root, text="OpenAI API Key:")
 api_key_label.pack(expand=True, pady=5)
-api_key_entry = ttk.Entry(root)
+api_key_entry = ttk.Entry(root, textvariable=api_key_var)
 api_key_entry.pack(expand=True, pady=5)
 
 # Use ttk.Button for the transcribe button
