@@ -2,6 +2,9 @@
 
 This repository contains a simple Graphical User Interface (GUI) application for transcribing audio files using OpenAI's Whisper API. The application is built using Python's Tkinter library and is designed to be user-friendly and efficient for transcribing large audio files by splitting them into smaller segments.
 
+![image](https://github.com/mrfidibus7/Whisper-GUI/assets/110305821/2f71bc4e-72c5-419b-a6ec-e4be48d00631)
+
+
 ## Features
 
 - **File Selection**: Easily select audio files for transcription.
