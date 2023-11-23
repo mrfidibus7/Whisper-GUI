@@ -27,8 +27,6 @@ def split_audio(file_path, segment_duration_ms=900000, output_dir=None):
 
     return segments
 
-# Load API Key from Environment Variable
-openai.api_key = "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"
 
 def transcribe_audio(file_path, language):
     print("Transcribing audio")
