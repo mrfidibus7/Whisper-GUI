@@ -52,7 +52,7 @@ def save_transcript(text, file_path, file_format):
         doc.save(file_path)
 
 # Global variable for the API key
-api_key_var = tk.StringVar()
+api_key_var = None
 
 # Global variable for the message label
 message_label = None
@@ -125,6 +125,7 @@ root.geometry("400x350")
 style = ttk.Style()
 style.theme_use('clam')  # You can experiment with different themes like 'alt', 'default', 'classic', 'vista'
 
+api_key_var = tk.StringVar()
 file_path_var = tk.StringVar()
 output_folder = tk.StringVar(value=os.getcwd())
 
