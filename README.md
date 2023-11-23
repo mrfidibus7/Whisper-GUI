@@ -61,6 +61,6 @@ This command will generate a single executable file in the `dist` folder, which 
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome. Feel free to check [](<link-to-your-issues-page>) if you want to contribute.
+Contributions, issues, and feature requests are welcome. Feel free to check the issues page if you want to contribute.
 
 Project Link: [https://github.com/mrfidibus7/Whisper-GUI](<your-repo-link>)
